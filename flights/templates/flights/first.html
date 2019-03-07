@@ -1,0 +1,6 @@
+
+<h1>Primeira etapa - 20 primeiros aeroportos</h1>
+<h2>Total de aeroportos - {{aiports|length}}</h2>
+{% for key, value in aiports.items %}
+    <p>{{ key }} {{ value.city }}</p>
+{% endfor %}
